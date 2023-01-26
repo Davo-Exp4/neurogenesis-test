@@ -158,17 +158,17 @@ p {
 
 /*===== All SECTION TITLE Style =====*/
 .section-title .line {
-  background: -webkit-linear-gradient(#3884f7 0%, #3741da 100%);
-  background: -o-linear-gradient(#3884f7 0%, #3741da 100%);
-  background: linear-gradient(#3884f7 0%, #3741da 100%);
+  background: -webkit-linear-gradient(#797979 0%, #000000 100%);
+  background: -o-linear-gradient(#797979 0%, #000000 100%);
+  background: linear-gradient(#797979 0%, #000000 100%);
   width: 150px;
   height: 5px;
   margin-bottom: 10px !important; }
 
   .section-title .line-mod {
-    background: -webkit-linear-gradient(#3884f7 0%, #3741da 100%);
-    background: -o-linear-gradient(#3884f7 0%, #3741da 100%);
-    background: linear-gradient(#3884f7 0%, #3741da 100%);
+    background: -webkit-linear-gradient(#797979 0%, #000000 100%);
+    background: -o-linear-gradient(#797979 0%, #000000 100%);
+    background: linear-gradient(#797979 0%, #000000 100%);
     width: 100%;
     height: 5px;
     margin-bottom: 10px !important; }
@@ -1168,9 +1168,9 @@ p {
           z-index: -1;
           top: 0;
           left: 0;
-          background: -webkit-linear-gradient(#3884f7 0%, #3741da 100%);
-          background: -o-linear-gradient(#3884f7 0%, #3741da 100%);
-          background: linear-gradient(#3884f7 0%, #3741da 100%);
+          background: -webkit-linear-gradient(#797979 0%, #000000 100%);
+          background: -o-linear-gradient(#797979 0%, #000000 100%);
+          background: linear-gradient(#797979 0%, #000000 100%);
           opacity: 0;
           visibility: hidden;
           -webkit-transition: all 0.3s ease-out 0s;
