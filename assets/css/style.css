@@ -687,7 +687,7 @@ p {
         color: #2E2E2E; }
         .navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
           padding-left: 25px;
-          color: #361CC1; }
+          color: rgb(167, 163, 163); }
 
 .navbar-nav .sub-nav-toggler {
   display: none; }
@@ -768,7 +768,7 @@ p {
   color: #2E2E2E; }
 
 .sticky .navbar-nav .nav-item.active > a, .sticky .navbar-nav .nav-item:hover > a {
-  color: #361CC1; }
+  color: rgb(167, 163, 163); }
 
 /*===== HEADER HERO =====*/
 .header-hero {
@@ -1640,3 +1640,9 @@ img-logo{
   }
   
   svg { width: 100%; }
+
+
+.slide-img {
+  margin-left: 20px; 
+  margin-right: 20px;
+}
