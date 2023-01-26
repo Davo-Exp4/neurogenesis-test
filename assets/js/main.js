@@ -15,10 +15,10 @@ $(function () {
         var scroll = $(window).scrollTop();
         if (scroll < 20) {
             $(".navbar-area").removeClass("sticky");
-            $(".navbar .navbar-brand img").attr("src", "assets/images/acuamattic-grises.png");
+            $(".navbar .navbar-brand img").attr("src", "assets/images/neurogenesis grisis horizontal.png");
         } else {
             $(".navbar-area").addClass("sticky");
-            $(".navbar .navbar-brand img").attr("src", "assets/images/acuamattic-grises.png");
+            $(".navbar .navbar-brand img").attr("src", "assets/images/neurogenesis grisis horizontal.png");
         }
     });
 
