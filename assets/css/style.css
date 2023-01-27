@@ -1550,7 +1550,7 @@ p {
 
 .block {
   overflow: hidden;
-  width: 1000px;
+  width: auto;
   height: 120px;
   margin: 50px auto;
   background: #fff;
@@ -1628,4 +1628,13 @@ p {
 .gallery_product
 {
     margin-bottom: 30px;
+}
+
+
+.titulo-main {
+  position: relative;
+  color: #ffffff;  
+  /* font-size: 14rem; */
+  line-height: 0.9;
+  text-align: center;
 }
