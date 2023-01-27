@@ -148,9 +148,9 @@ p {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background: -webkit-linear-gradient(left, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
-  background: -o-linear-gradient(left, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
-  background: linear-gradient(to right, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
+  background: -webkit-linear-gradient(left, #797979 0%, #000000 50%, #797979 100%);
+  background: -o-linear-gradient(left, #797979 0%, #000000 50%, #797979 100%);
+  background: linear-gradient(to right, #797979 0%, #000000 50%, #797979 100%);
   background-size: 200%; }
   .main-btn:hover {
     color: #fff;
@@ -1576,4 +1576,59 @@ p {
 .test::before, .test::after {
   background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
+}
+
+
+
+
+.gallery-title
+{
+    font-size: 36px;
+    /* color: #42B32F; */
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    /* border: 1px solid #42B32F; */
+    border-radius: 5px;
+    text-align: center;
+    /* color: #42B32F; */
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
 }

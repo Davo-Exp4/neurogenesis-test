@@ -491,12 +491,57 @@
     <!--====== BRAMD PART START ======-->
 
     <!--====== PORTAFOLIO PART START ======-->
+    <section id="facts" class="video-counter pt-70">
+        <div class="container">
+            <div class="row">
+                <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="gallery-title">Lineas de Investigacion</h1>
+                </div>
+
+                <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <button class="main-btn filter-button" data-filter="all">Todos</button>
+                    <button class="main-btn filter-button" data-filter="hdpe">Investigacion</button>
+                    <button class="main-btn filter-button" data-filter="sprinkle">Desarrollo</button>
+                    <button class="main-btn filter-button" data-filter="spray">Innovacion</button>
+                    <button class="main-btn filter-button" data-filter="irrigation">Analitica</button>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                    <img src="assets/images/gota-iphone-clasic.png" class="img-responsive">
+                </div>
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                    <img src="assets/images/gota-iphone-clasic.png" class="img-responsive">
+                </div>
     
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                    <img src="assets/images/gota-iphone-clasic.png" class="img-responsive">
+                </div>
+    
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                    <img src="assets/images/gota-iphone-clasic.png" class="img-responsive">
+                </div>
+    
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                    <img src="assets/images/gota-iphone-clasic.png" class="img-responsive">
+                </div>
+    
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                    <img src="assets/images/gota-iphone-clasic.png" class="img-responsive">
+                </div>
+    
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                    <img src="assets/images/gota-iphone-clasic.png" class="img-responsive">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
    
 
     <!--====== PORTAFOLIO PART ENDS ======-->
    
-    <!-- <div class="brand-area pt-90">
+    <div class="brand-area pt-90">
         <div class="container">
             <div class="section-title text-center pb-40">
 
@@ -534,7 +579,7 @@
                 </div>
               </div>
         </div>
-    </div> -->
+    </div>
     <!--====== BRAMD PART ENDS ======-->
 
     <!--====== TEAM PART START ======-->
@@ -703,13 +748,13 @@
             <div class="subscribe-area wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="subscribe-content mt-45">
-                            <h2 class="subscribe-title">Subscribete a nuestro boletin <span>para recibir noticias y
-                                    actualizaciones</span></h2>
+                        <div class="subscribe-content mt-10">
+                            <h4 class="">Subscribete a nuestro boletin <span>para recibir noticias y
+                                    actualizaciones</span></h4>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="subscribe-form mt-50">
+                        <div class="subscribe-form mt-10">
                             <form action="#">
                                 <input type="text" placeholder="Enter eamil">
                                 <button class="main-btn">Suscribirse</button>
@@ -723,7 +768,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-8">
                         <div class="footer-about mt-50 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <a class="logo" href="#">
-                                <img src="assets/images/acuamattic blanco-horizontal.png" alt="logo">
+                                <img src="assets/images/logo blanco.png" alt="logo">
                             </a>
                             <p class="text">NEUROGENESIS IA TECHNOLOGIES S.L .</p>
                             <ul class="social">
@@ -782,7 +827,7 @@
                     <div class="col-lg-12">
                         <div class="copyright d-sm-flex justify-content-between">
                             <div class="copyright-content">
-                                <p class="text">Todos los derechos reservados 2023</p>
+                                <p class="text-center">Copyright © Todos los derechos reservados 2023</p>
                             </div> <!-- copyright content -->
                         </div> <!-- copyright -->
                     </div>
@@ -857,6 +902,34 @@
     <!-- <script src="assets/js/chart.js"></script> -->
 
     <script src="assets/js/car.js"></script>
+    <script>
+        $(document).ready(function(){
+
+$(".filter-button").click(function(){
+    var value = $(this).attr('data-filter');
+    
+    if(value == "all")
+    {
+        //$('.filter').removeClass('hidden');
+        $('.filter').show('1000');
+    }
+    else
+    {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+        $(".filter").not('.'+value).hide('3000');
+        $('.filter').filter('.'+value).show('3000');
+        
+    }
+});
+
+if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
+});
+    </script>
 
     
 
