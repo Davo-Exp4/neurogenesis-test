@@ -1566,3 +1566,14 @@ p {
   float: none;
   padding: 0 10px;
 }
+
+
+.test {
+  
+  width: 100%;
+ 
+}
+.test::before, .test::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+}
