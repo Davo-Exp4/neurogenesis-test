@@ -1374,9 +1374,9 @@ p {
     border-bottom-right-radius: 5px;
     height: 65px;
     line-height: 65px;
-    background: -webkit-linear-gradient(left, #3884f7 0%, #3741da 50%, #3884f7 100%);
-    background: -o-linear-gradient(left, #3884f7 0%, #3741da 50%, #3884f7 100%);
-    background: linear-gradient(to right, #3884f7 0%, #3741da 50%, #3884f7 100%);
+    background: -webkit-linear-gradient(left, #797979 0%, #000000 50%, #797979 100%);
+    background: -o-linear-gradient(left, #797979 0%, #000000 50%, #797979 100%);
+    background: linear-gradient(to right, #797979 0%, #000000 50%, #797979 100%);
     background-size: 200%; }
     @media (max-width: 767px) {
       .subscribe-form button {
@@ -1411,7 +1411,7 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url(../images/foot2.png);
+  background-image: url(../images/white-neuron-2.png);
   background-position: top center;
   z-index: -1;
   background-size: cover; }
@@ -1519,9 +1519,9 @@ p {
   height: 40px;
   line-height: 40px;
   border-radius: 5px;
-  background: -webkit-linear-gradient(left, #361cc1 0%, #2e82ef 100%);
-  background: -o-linear-gradient(left, #361cc1 0%, #2e82ef 100%);
-  background: linear-gradient(to right, #361cc1 0%, #2e82ef 100%);
+  background: -webkit-linear-gradient(left, #000000 0%, #797979 100%);
+  background: -o-linear-gradient(left, #000000 0%, #797979 100%);
+  background: linear-gradient(to right, #000000 0%, #797979 100%);
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1577,9 +1577,6 @@ p {
   background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
 }
-
-
-
 
 .gallery-title
 {
